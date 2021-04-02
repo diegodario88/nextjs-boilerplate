@@ -1,5 +1,26 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@helpers/*": [
+        "helpers/*"
+      ],
+      "@interfaces/*": [
+        "interfaces/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
+    },
     "target": "es5",
     "lib": [
       "dom",
