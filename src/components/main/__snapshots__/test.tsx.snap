@@ -1,9 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> Should Render heading 1`] = `
-<main>
-  <h1>
+<main
+  class="styles__Wrapper-cwsudp-0 kABIWL"
+>
+  <img
+    alt="Imagem do mapa múndi"
+    class="styles__Logo-cwsudp-1 gGOyxR"
+    src="/images/world-map.svg"
+  />
+  <h1
+    class="styles__Title-cwsudp-2 jnUjSy"
+  >
     Testing with Jest
   </h1>
+  <h2
+    class="styles__Description-cwsudp-3 ctHSGV"
+  >
+    Typescript, ReactJS e Styled Components
+  </h2>
+  <img
+    alt="Desenvolvedor atuando em um computador"
+    class="styles__Illustration-cwsudp-4 kLdOcw"
+    src="/images/hero-illustration.svg"
+  />
 </main>
 `;
