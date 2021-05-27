@@ -1,27 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> Should Render heading 1`] = `
+.c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.c1 {
+  width: 25rem;
+  margin-bottom: 3rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.c4 {
+  margin-top: 3rem;
+  width: min(30rem,100%);
+}
+
 <main
-  class="styles__Wrapper-cwsudp-0 kABIWL"
+  class="c0"
 >
   <img
     alt="Imagem do mapa múndi"
-    class="styles__Logo-cwsudp-1 gGOyxR"
+    class="c1"
     src="/images/world-map.svg"
   />
   <h1
-    class="styles__Title-cwsudp-2 jnUjSy"
+    class="c2"
   >
     Testing with Jest
   </h1>
   <h2
-    class="styles__Description-cwsudp-3 ctHSGV"
+    class="c3"
   >
     Typescript, ReactJS e Styled Components
   </h2>
   <img
     alt="Desenvolvedor atuando em um computador"
-    class="styles__Illustration-cwsudp-4 kLdOcw"
+    class="c4"
     src="/images/hero-illustration.svg"
   />
 </main>
